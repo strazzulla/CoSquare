@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#444"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Received : "
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/band_received"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sent : "
+            android:textColor="#fff" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/band_sent"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Location"
+            android:id="@+id/buttonLocation"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#ddd"
+            android:onClick="buttonLocationClick"
+            android:background="@drawable/btn0" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Settings"
+            android:id="@+id/buttonSettings"
+            android:onClick="buttonSettingsClick"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#ddd"
+            android:background="@drawable/btn0" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonColor"
+        android:onClick="buttonColorClick"
+        android:text="Send Color"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#ddd"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/btn0" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#ddd"
+        android:background="@drawable/btn0"
+        android:onClick="sendLike"/>
+
+</LinearLayout>

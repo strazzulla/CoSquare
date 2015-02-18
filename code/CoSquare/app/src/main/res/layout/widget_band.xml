@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:orientation="horizontal"
+    android:background="#ddd">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/bff_band_image_view" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
+

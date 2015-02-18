@@ -1,0 +1,75 @@
+\select@language {english}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {section}{\numberline {1}Architecture Overview}{4}
+\contentsline {subsection}{\numberline {1.1}Activities}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {1.2}Location updates}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {1.3}Saving data}{5}
+\contentsline {subsubsection}{\numberline {1.3.1}Preferences}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsubsection}{\numberline {1.3.2}SQL database}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {1.4}Messages}{6}
+\contentsline {subsubsection}{\numberline {1.4.1}Messages from the app}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsubsection}{\numberline {1.4.2}Messages from the server}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsubsection}{\numberline {1.4.3}Special messages for registration}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {1.5}General}{7}
+\contentsline {section}{\numberline {2}Complete Documentation}{8}
+\contentsline {subsection}{\numberline {2.1}lri.prototype.cosquare.app.bff}{8}
+\contentsline {subsubsection}{\numberline {2.1.1}BandManager}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsubsection}{\numberline {2.1.2}ColorActivity}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsubsection}{\numberline {2.1.3}ColorManager}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {2.2}lri.prototype.cosquare.app.gcm}{9}
+\contentsline {subsubsection}{\numberline {2.2.1}GcmBroadcastReceiver}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsubsection}{\numberline {2.2.2}GcmIntentService}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsubsection}{\numberline {2.2.3}GcmManager}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {2.3}lri.prototype.cosquare.app.location}{9}
+\contentsline {subsubsection}{\numberline {2.3.1}LocationBroadcastReceiver}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsubsection}{\numberline {2.3.2}LocationUtils}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsection}{\numberline {2.4}lri.prototype.cosquare.app.server}{10}
+\contentsline {subsubsection}{\numberline {2.4.1}LinkToServerManager}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsection}{\numberline {2.5}lri.prototype.cosquare.app.settings}{10}
+\contentsline {subsubsection}{\numberline {2.5.1}SettingsActivity}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsubsection}{\numberline {2.5.2}SettingsLocationActivity}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsubsection}{\numberline {2.5.3}SettingsLocationUtils}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {2.6}lri.prototype.cosquare.app.sqldatabase}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {2.7}lri.prototype.cosquare.app.widget}{12}
+\contentsline {subsubsection}{\numberline {2.7.1}BandWidget}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {2.8}MainActivity}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {section}{\numberline {3}Server implementation}{13}
+\contentsline {subsection}{\numberline {3.1}gcmserver.php}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {subsection}{\numberline {3.2}Database}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{Table user :}{13}
+\contentsline {paragraph}{Table data :}{13}
+\contentsline {subsection}{\numberline {3.3}Data analysis}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{[1]}{14}
+\contentsline {paragraph}{[2]}{14}
